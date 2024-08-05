@@ -8,6 +8,7 @@ import io
 import base64
 
 app = dash.Dash(__name__)
+server=app.server
 app.layout = html.Div([
     html.Div([
         dcc.Upload(
